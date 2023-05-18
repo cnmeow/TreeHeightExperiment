@@ -6,7 +6,7 @@ Repository này chứa mã nguồn và dữ liệu cho thực nghiệm đo chi�
 ## 🟠 Cấu trúc Repository
 Repository chứa file báo cáo kết quả thực nghiệm `Report.pdf` và ba thư mục chính:
 
-1. **`AVL`**: Folder chứa code tạo cây AVL và chiều cao của cây với 10 bộ dữ liệu:
+1. **`AVLTree`**: Folder chứa code tạo cây AVL và chiều cao của cây với 10 bộ dữ liệu:
   - `AVLTree.cpp`: Code C++ để tạo 10 cây AVL cho 10 bộ dữ liệu và xuất chiều cao của 10 cây tương ứng. ***Mã nguồn tạo cây AVL và thêm dữ liệu vào cây được lấy từ [Greekforgreeks - Insertion in an AVL Tree](https://www.geeksforgeeks.org/insertion-in-an-avl-tree/)***
   - `AVLHeight.txt`: Tệp văn bản chứa chiều cao của 10 cây AVL cho 10 bộ dữ liệu (mỗi chiều cao trên một dòng).
 2. **`RedBlackTree`**: Folder chứa code tạo cây Đỏ-đen và chiều cao của cây với 10 bộ dữ liệu:
@@ -19,7 +19,7 @@ Repository chứa file báo cáo kết quả thực nghiệm `Report.pdf` và ba
 ## 🟢 Quy trình thực nghiệm
 
 1. Chạy `Datasets/CreateDatasets.cpp` để tạo 10 bộ dữ liệu ngẫu nhiên.
-2. Biên dịch và chạy `AVL/AVLTree.cpp` để tạo 10 cây AVL cho các bộ dữ liệu và ghi nhận chiều cao của các cây vào `AVL/AVLHeight.txt`.
+2. Biên dịch và chạy `AVLTree/AVLTree.cpp` để tạo 10 cây AVL cho các bộ dữ liệu và ghi nhận chiều cao của các cây vào `AVLTree/AVLHeight.txt`.
 3. Biên dịch và chạy `RedBlackTree/RedBlackTree.cpp` để tạo 10 cây Đỏ-Đen cho các bộ dữ liệu và ghi nhận chiều cao của các cây vào `RedBlackTree/RedBlackHeight.txt`.
 4. Phân tích các chiều cao đã ghi nhận, so sánh chiều cao cây và giá trị logN, 1.45logN.
 5. Viết báo cáo kết quả thực nghiệm.
