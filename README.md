@@ -1,7 +1,7 @@
 # 🧪 Thực nghiệm đo chiều cao cây AVL và cây Đỏ-Đen
 
 ## 🔴 Mô tả
-Repository này chứa mã nguồn và dữ liệu cho thực nghiệm đo chiều cao của **cây AVL** và **cây Đỏ-Đen** qua 10 bộ dữ liệu ngẫu nhiên (mỗi bộ khoảng 10<sup>6</sup> giá trị phân biệt).
+Repository này chứa mã nguồn và dữ liệu cho thực nghiệm đo chiều cao của **cây AVL** và **cây Đỏ-Đen** qua 10 bộ dữ liệu ngẫu nhiên (mỗi bộ khoảng 10<sup>6</sup> giá trị phân biệt)
 
 ## 🟠 Cấu trúc Repository
 Repository chứa file báo cáo kết quả thực nghiệm `Report.pdf` và ba thư mục chính:
